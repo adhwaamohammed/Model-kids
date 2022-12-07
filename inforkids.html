@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+ <meta charset="utf-8">
+<body dir="rtl" lang="ar-SA">
+<form name="form1">
+
+ <FONT FACE="Traditional Arabic, Arabic Transparent, Simplified Arabic"SIZE="6" color="navy">‎
+
+ <link rel="stylesheet"href="info.css">
+ <center>
+ <h2>بيانات المودل</h2>
+ </center>
+ <form>
+ <center>
+ <div class="input-box">
+ <label>اسم المودل:</label>
+ <input type="text" name="اسم المودل" class="input" required>
+ </div>
+ <br>
+ <div class="input-box">
+ <label>الطول:</label>
+ <input type="text" class="input" required>
+ </div>
+ <br>
+ <div class="input-box">
+ <label>الوزن:</label>
+ <input type="text" class="input" required>
+ </div>
+ <br>
+ <div class="input-box">
+ <label>العمر:</label>
+ <select>
+    <option value="..">..</option>
+	<option value="1 سنة">1 سنة</option>
+	<option value="2 سنة">2 سنة</option>
+	<option value="3 سنوات">3 سنوات</option>
+	<option value="4 سنوات">4 سنوات</option>
+	<option value="5 سنوات">5 سنوات</option>
+	<option value="6 سنوات">6 سنوات</option>
+	<option value="7 سنوات">7 سنوات</option>
+	<option value="8 سنوات">8 سنوات</option>
+	<option value="9 سنوات">9 سنوات</option>
+	<option value="10 سنوات">10 سنوات</option>
+	<option value="11 سنة">11 سنة</option>
+	<option value="12 سنة">12 سنة</option>
+ </select>
+ </div>
+ <br>
+ <label>لون البشرة:</label>
+ <select>
+    <option value="..">..</option>
+    <option value="البشرة البيضاء">البشرة البيضاء</option>
+	<option value="البشرة المتوسطة">البشرة المتوسطة </option>
+	<option value="البشرة القمحية"> البشرة القمحية</option>
+	<option value="البشرة الداكنة">البشرة الداكنة</option>
+ </select>
+ <br>
+ <label>لون العيون:</label>
+ <select>
+    <option value="..">..</option>
+	<option value="البني">البني</option>
+	<option value="الرمادي">الرمادي</option>
+	<option value="الأخضر">الأخضر</option>
+	<option value="الأزرق">الأزرق</option>
+ </select>
+ <br>
+ <label>رفع الصورة:</label>
+ <input type="file" id="myFile" name="filename" >
+ <br>
+ <div class="input-box">
+ <label>البريد الإلكتروني:</label>
+ <input type="text" name="البريد" class="input" placeholder="example@example.com" required>
+ </div>
+ <br>
+ <div class="input-box">
+ <label for="password">كلمة المرور:</label>
+ <input type="password" name="text1" id="password" class = "input" required>
+ <br>
+ <label for="password">تأكيد كلمة المرور:</label>
+ <input type="password" name="text2" id="password" class="input"   required >
+ <br><br>
+ <div class="input-box">
+<input type="submit"   value="إرسال" class="btn" onclick="f1()"/>
+</center>
+</form>
+<br><br>
+<a href="bootstrab.html" class="btn" > رجوع</a>
+ </form>
+ <script> 
+ function f1()
+ {
+ if (form1.text1.value!==form1.text2.value)
+  alert("كلمة المرور غير متطابقة");
+ 
+ }
+ 
+</script>
+</font>
+</body>
+</html>
