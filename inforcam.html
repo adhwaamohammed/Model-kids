@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <meta charset="utf-8">
+
+ <body dir="rtl" lang="ar-SA">
+ <form name="form1">
+  ‎<FONT FACE="Traditional Arabic, Arabic Transparent, Simplified Arabic"SIZE="5" color="navy">‎
+  
+<link rel="stylesheet"href="style2.css">
+ <center>
+  <h2>تسجيل بيانات العميل</h2>
+  </center>
+        
+		<center>
+ <div class="input-box">
+ <label> الاسم بالكامل </label>
+ <input type="text" name="الاسم" class="input" required><br><br>
+  </div>
+<div class="input-box">
+<label>  البريد الالكتروني</label>
+ <input type="text" name="البريد" class="input" placeholder="example@example.com" required>
+</div>
+<div class="input-box">
+<label for="password"> كلمة المرور </label>
+<input type="password" name="text1" id="password" class = "input" required <br><br>
+
+<label for="password"> تأكيد كلمة المرور </label>
+<input type="password" name="text2" id="password" class="input"  >
+<br><br>
+
+<div class="input-box">
+	 <label> رقم الجوال </label>
+ <input type="name" name="اسم" class="input" placeholder="055" required><br><br>
+ </div>
+ <div class="input-box">
+  <input href="submit" type="submit"   value="تسجيل الدخول" class="btn"  onclick="f1()" />
+
+  </center>
+<br><br>
+ <a href="bootstrab.html" class="btn"> رجوع</a>
+ </form>
+ <script> 
+ function f1()
+ {
+ if (form1.text1.value!==form1.text2.value)
+  alert("كلمة المرور غير متطابقة");
+ 
+ }
+</script>
+</font>
+ </body>
+ </html>
